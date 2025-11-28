@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jajus Flooring Concepts - Premium Flooring Solutions in Bangalore</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Arial', sans-serif; line-height: 1.6; color: #333; }
+        header { background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80') center/cover; height: 100vh; display: flex; align-items: center; justify-content: center; text-align: center; color: white; }
+        nav { position: fixed; top: 0; width: 100%; background: rgba(0,0,0,0.8); padding: 1rem 0; z-index: 1000; }
+        nav ul { list-style: none; display: flex; justify-content: center; }
+        nav li { margin: 0 1.5rem; }
+        nav a { color: white; text-decoration: none; font-weight: bold; transition: color 0.3s; }
+        nav a:hover { color: #d4af37; }
+        .hero h1 { font-size: 3.5rem; margin-bottom: 1rem; }
+        .hero p { font-size: 1.5rem; }
+        section { padding: 80px 10%; }
+        h2 { text-align: center; font-size: 2.5rem; margin-bottom: 3rem; color: #2c3e50; }
+        .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; }
+        .service { text-align: center; padding: 2rem; border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); transition: transform 0.3s; }
+        .service:hover { transform: translateY(-10px); }
+        .service h3 { color: #d4af37; margin-bottom: 1rem; }
+        .gallery { background: #f8f9fa; }
+        .slideshow-container { max-width: 1000px; margin: 0 auto; position: relative; }
+        .mySlides { display: none; }
+        .mySlides img { width: 100%; height: 500px; object-fit: cover; }
+        .prev, .next { cursor: pointer; position: absolute; top: 50%; width: auto; padding: 16px; margin-top: -22px; color: white; font-weight: bold; font-size: 18px; transition: 0.3s ease; border-radius: 0 3px 3px 0; user-select: none; background: rgba(0,0,0,0.5); }
+        .next { right: 0; border-radius: 3px 0 0 3px; }
+        .prev:hover, .next:hover { background: rgba(0,0,0,0.8); }
+        .why-us { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; }
+        .why-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; }
+        .why-item { text-align: center; }
+        .contact { background: #2c3e50; color: white; text-align: center; }
+        .contact-info { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; max-width: 800px; margin: 0 auto; }
+        footer { background: #1a1a1a; color: white; text-align: center; padding: 2rem; }
+        @media (max-width: 768px) { .hero h1 { font-size: 2.5rem; } nav ul { flex-direction: column; } }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#why-us">Why Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header id="home">
+        <div class="hero">
+            <h1>Jajus Flooring Concepts</h1>
+            <p>Premium Granite, Marble & Quartz Solutions in Bangalore [web:1]</p>
+        </div>
+    </header>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services-grid">
+            <div class="service">
+                <h3>Granite Slabs</h3>
+                <p>Varieties like Black Galaxy, Lakha Red, JS Snow for durable flooring and countertops [web:13][web:33]</p>
+            </div>
+            <div class="service">
+                <h3>Marble & Quartz</h3>
+                <p>Luxurious marbles and engineered quartz for kitchens, bathrooms and interiors [web:20][web:34]</p>
+            </div>
+            <div class="service">
+                <h3>Vitrified Tiles</h3>
+                <p>High-quality vitrified, porcelain and anti-skid tiles for versatile applications [web:35]</p>
+            </div>
+            <div class="service">
+                <h3>Full Solutions</h3>
+                <p>From selection to supply for residential, commercial and industrial projects [web:6][web:22]</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <h2>Gallery</h2>
+        <div class="slideshow-container">
+            <div class="mySlides">
+                <img src="https://images.unsplash.com/photo-1588880331178-7fd6a9a8b2e8?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" alt="Granite Slabs">
+            </div>
+            <div class="mySlides">
+                <img src="https://images.unsplash.com/photo-1600210492493-0946911123ea?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" alt="Marble Flooring">
+            </div>
+            <div class="mySlides">
+                <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" alt="Quartz Countertops">
+            </div>
+            <div class="mySlides">
+                <img src="https://images.unsplash.com/photo-1558618047-3c8c76bbb17e?ixlib=rb-4.0.3&auto=format&fit=crop&w=2071&q=80" alt="Installed Projects">
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+        </div>
+        <p style="text-align: center; margin-top: 20px;">Explore our premium materials and installations [web:4][web:21][web:27]</p>
+    </section>
+
+    <section id="why-us" class="why-us">
+        <h2>Why Choose Us</h2>
+        <div class="why-grid">
+            <div class="why-item">
+                <h3>Award Winning</h3>
+                <p>Most Prominent Flooring Company 2022 [web:6][web:11]</p>
+            </div>
+            <div class="why-item">
+                <h3>Vast Stock</h3>
+                <p>Imported & domestic stones since 2010 [web:1]</p>
+            </div>
+            <div class="why-item">
+                <h3>Competitive Pricing</h3>
+                <p>Bulk orders and reliable delivery [web:12]</p>
+            </div>
+            <div class="why-item">
+                <h3>One-Stop Shop</h3>
+                <p>Quality service for all stone needs [web:2][web:7]</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-info">
+            <div>
+                <h3>Showroom</h3>
+                <p>Site No. 857, 11th Block, 6th Stage<br>Banashankari, Bengaluru - 560060 [web:1][web:2]</p>
+            </div>
+            <div>
+                <h3>Phone</h3>
+                <p>+91 97420 42097 (Call/WhatsApp) [web:9][web:10]</p>
+            </div>
+            <div>
+                <h3>Social</h3>
+                <p>Instagram: @jajusflooringconcepts<br>Facebook: Jajus Stone Flooring [web:3][web:4]</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Jajus Flooring Concepts. All rights reserved. | GST: 29ADLPJ7188G1ZY [web:1]</p>
+    </footer>
+
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+        function plusSlides(n) { showSlides(slideIndex += n); }
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) { slides[i].style.display = "none"; }
+            slides[slideIndex-1].style.display = "block";
+        }
+        let slideInterval = setInterval(() => { plusSlides(1); }, 4000);
+    </script>
+</body>
+</html>
